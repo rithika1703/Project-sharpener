@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AXIOS Crash Course</title>
+    <title>Website Title Adder</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <button id="get-btn" type="button">GET</button>
-    <button id="post-btn" type="button">POST</button>
-    <button id="put-btn" type="button">PUT</button>
-    <button id="delete-btn" type="button">DELETE</button>
-</body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.1/axios.min.js"></script>
-<script src="index.js"></script>
+    <div class="container">
+        <h1>Website Title Adder</h1>
+        <label for="title">Title:</label>
+        <input type="text" id="title" placeholder="Enter title">
+        <label for="url">URL:</label>
+        <input type="text" id="url" placeholder="Enter URL">
+        <button onclick="addWebsite()">Add Website</button>
+        <div id="result"></div>
+    </div>
 
+    <script src="script.js"></script>
+</body>
 </html>
